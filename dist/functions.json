@@ -1,0 +1,188 @@
+{
+    "functions": [
+        {
+            "description": "Adds two numbers.",
+            "id": "PROJETOS",
+            "name": "PROJETOS",
+            "parameters": [
+                {
+                    "description": "V = Vertical, H = Horizontal",
+                    "name": "posicao",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "description": "Lista das topologias relacionadas ao projeto.",
+            "id": "TOPOLOGIAS",
+            "name": "TOPOLOGIAS",
+            "parameters": [
+                {
+                    "description": "Nome do Projeto",
+                    "name": "nomeProjeto",
+                    "type": "string"
+                },
+                {
+                    "description": "V = Vertical, H = Horizontal",
+                    "name": "posicao",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "description": "Lista dos Cenarios relacionadas a Topologia.",
+            "id": "CENARIOS",
+            "name": "CENARIOS",
+            "parameters": [
+                {
+                    "description": "Nome do Projeto",
+                    "name": "projeto",
+                    "type": "string"
+                },
+                {
+                    "description": "Nome da Topologia",
+                    "name": "topologia",
+                    "type": "string"
+                },
+                {
+                    "description": "V = Vertical, H = Horizontal",
+                    "name": "posicao",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "description": "Lista dos Simbolos de entrada",
+            "id": "SIMBOLOSENTRADA",
+            "name": "SIMBOLOSENTRADA",
+            "parameters": [],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "description": "Lista dos Simbolos de Resultados",
+            "id": "SIMBOLOSRESULTADO",
+            "name": "SIMBOLOSRESULTADO",
+            "parameters": [],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "description": "Entrada",
+            "id": "ENTRADAS",
+            "name": "ENTRADAS",
+            "parameters": [
+                {
+                    "description": "Nome do Projeto",
+                    "name": "Projeto",
+                    "type": "string"
+                },
+                {
+                    "description": "Nome da Topologia",
+                    "name": "Topologia",
+                    "type": "string"
+                },
+                {
+                    "description": "Nome do Cenario",
+                    "name": "Cenario",
+                    "type": "string"
+                },
+                {
+                    "description": "simbolo",
+                    "name": "Simbolo",
+                    "type": "string"
+                },
+                {
+                    "description": "entidade1",
+                    "name": "Entidade1",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "entidade2",
+                    "name": "Entidade2",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "entidade3",
+                    "name": "Entidade3",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        },
+        {
+            "description": "Resultados",
+            "id": "RESULTADOS",
+            "name": "RESULTADOS",
+            "parameters": [
+                {
+                    "description": "Nome do Projeto",
+                    "name": "Projeto",
+                    "type": "string"
+                },
+                {
+                    "description": "Nome da Topologia",
+                    "name": "Topologia",
+                    "type": "string"
+                },
+                {
+                    "description": "Nome do Cenario",
+                    "name": "Cenario",
+                    "type": "string"
+                },
+                {
+                    "description": "simbolo",
+                    "name": "Simbolo",
+                    "type": "string"
+                },
+                {
+                    "description": "entidade1",
+                    "name": "Entidade1",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "entidade2",
+                    "name": "Entidade2",
+                    "optional": true,
+                    "type": "string"
+                },
+                {
+                    "description": "entidade3",
+                    "name": "Entidade3",
+                    "optional": true,
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "string"
+            }
+        }
+    ]
+}
